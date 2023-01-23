@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/218581a2e4.js" crossorigin="anonymous"></script>
+    <title>Patrick's Portfolio</title>
+</head>
+
+<body>
+    <header id=nameHeader>
+        <h1>Patrick McCallion</h1>
+    </header>
+    <div id="portrait">
+        <img src="me.jpg" alt="Photo of myself and my dog, Cutter">
+    </div>
+    <span id="links">
+        <i class="fa-brands fa-square-github"><a href="https://github.com/PatMcCallion/Pre-Bootcamp-Public.git"
+                target="_blank">
+                GitHub</a></i>
+        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/patrick-mccallion/" target="_blank">
+                LinkedIn</a></i>
+        <i class="fa-solid fa-envelope"><a href="mailto:mccallion.patrick@gmail.com" target="_blank"> Email</a>
+        </i>
+    </span>
+    <section id="table">
+        <table>
+            <caption>
+                <p>My Technologies</p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>Javascript</th>
+                    <th>Databases</th>
+                    <th>Concepts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="projects">
+        <h2>
+            <i class="fa-solid fa-diagram-project"> My Projects</i>
+
+        </h2>
+    </section>
+    <form action="mailto:mccallion.patrick@gmail.com" method="post" enctype="text/plain">
+        <div>
+            <label for="name">Your Name:</label>
+            <input type="text" name="theirName" id="name" placeholder="Please enter your full name">
+            <label for="email">Your Email:</label>
+            <input type="email" name="theirEmail" id="email" placeholder="Please enter your email">
+        </div>
+        <div>
+            <label for="message">Your Message:</label>
+            <textArea name="theirMessage" id="message" cols="60" rows="10"
+                placeholder="Please enter your message here and I will get back to you soon!"></textArea>
+        </div>
+        <input type="button" value="Send Message">
+    </form>
+</body>
+
+</html>
